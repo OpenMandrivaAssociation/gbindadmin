@@ -1,4 +1,4 @@
-Summary:	GBINDADMIN -- A GTK+ administation tool for ISC BIND
+Summary:	A GTK+ administation tool for ISC BIND
 Name:		gbindadmin
 Version:	0.1.5
 Release:	%mkrel 1
