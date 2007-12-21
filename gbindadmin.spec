@@ -13,6 +13,7 @@ BuildRequires:	gtk+2-devel
 BuildRequires:	ImageMagick
 Requires:	bind >= 9.3.2
 Requires:	usermode-consoleonly
+Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 GBINDADMIN is a fast and easy to use GTK+ administration tool for
