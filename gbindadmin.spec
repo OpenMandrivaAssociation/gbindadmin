@@ -67,17 +67,6 @@ convert -geometry 32x32 pixmaps/%{name}.png %{buildroot}%{_iconsdir}/%{name}.png
 convert -geometry 16x16 pixmaps/%{name}.png %{buildroot}%{_miconsdir}/%{name}.png
 
 # Mandrake Menus
-install -d %{buildroot}/%{_menudir}
-cat > %{buildroot}%{_menudir}/%{name} <<EOF
-?package(%{name}): \
- command="%{_sbindir}/%{name}" \
- title="GBINDADMIN" \
- longtitle="ISC BIND server administration tool" \
- needs="x11" \
- icon="%{name}.png" \
- section="Configuration/Networking" \
- xdg="true"
-EOF
 
 # Prepare usermode entry
 mv %{buildroot}%{_sbindir}/%{name} %{buildroot}%{_sbindir}/%{name}.real
@@ -114,7 +103,6 @@ rm -rf %{buildroot}
 %{_datadir}/pixmaps/*.png
 %{_datadir}/pixmaps/%{name}/*.png
 %{_datadir}/pixmaps/%{name}/%{name}.png
-%{_menudir}/%{name}
 %{_iconsdir}/%{name}.png
 %{_miconsdir}/%{name}.png
 %{_liconsdir}/%{name}.png
