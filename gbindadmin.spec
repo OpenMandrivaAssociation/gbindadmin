@@ -35,7 +35,7 @@ bzcat %{SOURCE2} > %{name}.pam
 
 %configure2_5x
 
-perl -pi -e 's|^#define CHROOT_PATH .*|#define CHROOT_PATH \"%{_localstatedir}/named-chroot\"|g' config.h
+perl -pi -e 's|^#define CHROOT_PATH .*|#define CHROOT_PATH \"%{_localstatedir}/lib/named-chroot\"|g' config.h
 perl -pi -e 's|^#define SYSLOG_PATH .*|#define SYSLOG_PATH \"/var/log/messages\"|g' config.h
 perl -pi -e 's|^#define NAMED_USER .*|#define NAMED_USER \"named\"|g' config.h
 
