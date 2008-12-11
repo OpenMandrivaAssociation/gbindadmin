@@ -10,7 +10,7 @@ Source1:	%{name}.pam-0.77.bz2
 Source2:	%{name}.pam.bz2
 Patch0:		gbindadmin-0.1.4-named_user.diff
 BuildRequires:	gtk+2-devel
-BuildRequires:	ImageMagick
+BuildRequires:	imagemagick
 Requires:	bind >= 9.3.2
 Requires:	usermode-consoleonly
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
