@@ -1,7 +1,7 @@
 Summary:	A GTK+ administation tool for ISC BIND
 Name:		gbindadmin
 Version:	0.1.5
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPL
 Group:		System/Configuration/Networking
 URL:		http://www.gadmintools.org/
