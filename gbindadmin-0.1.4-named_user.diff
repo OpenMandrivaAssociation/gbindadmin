@@ -1,0 +1,11 @@
+--- src/system_defines.c	2006-04-01 20:36:59.000000000 +0200
++++ src/system_defines.c.oden	2006-04-02 11:45:26.000000000 +0200
+@@ -4,7 +4,7 @@
+ #include "../config.h"
+ 
+ #ifdef USE_LINUX
+-  #define NOBODY "nobody"
++  #define NOBODY "named"
+   #define ADDUSER "useradd"
+   #define ADDGROUP "groupadd"
+   #define DELUSER "userdel"
