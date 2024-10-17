@@ -4,7 +4,7 @@ Version:	0.1.5
 Release:	%mkrel 4
 License:	GPL
 Group:		System/Configuration/Networking
-URL:		http://www.gadmintools.org/
+URL:		https://www.gadmintools.org/
 Source0:	http://mange.dynalias.org/linux/gbindadmin/%{name}-%{version}.tar.bz2
 Source1:	%{name}.pam-0.77.bz2
 Source2:	%{name}.pam.bz2
